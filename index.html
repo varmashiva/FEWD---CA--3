@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredient Galaxy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Creaing a User intro and search bar -->
+    <div class="intro">
+        <div class="logo">
+            <div class="logo1"><img src="./assets/logo.png" style="width: 600px;" alt=""></div>
+            <div class="information">Welcome to Ingredient Galaxy, your culinary universe of inspiration! Explore our galaxy for random, delightful dish suggestions that promise to surprise and satisfy. Whether you're a seasoned chef or a kitchen novice, we're here to ignite your passion for cooking. With a simple search, uncover tailored meal categories that align with your preferences. Join us in this exciting voyage where every dish is a celestial creation waiting to be explored. Let Ingredient Galaxy be your guiding star in the vast universe of culinary delights!</div>
+            <div class="input_box">
+                <div class="input">
+                    <img src="./assets/search.png" class="search">
+                    <input type="text" class="text_bar" placeholder="  Seach for categories">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Craeting random name and random image -->
+    <hr class="line_1">
+    <div class="random">
+        <div class="random_name">
+            <h1 align="center" id="random_name"></h1>
+        </div>
+        <div class="random_image">
+            <img src="" id="randomMeal">
+        </div>    
+        <!-- craeting popup for Ingredients -->
+        <button class="btn" onclick="openpopup()">View Ingredients </button>
+        <div class="popup" id="popupDiv">
+            <img src="" alt="">
+            <h2 class="Ingredients">Ingredients</h2>
+            <p></p>
+            <ol id="modalIngredients">
+
+            </ol>  
+            <button onclick="closepopup()">Close</button>
+        </div>
+    </div>
+    <!-- Craeting dishes according to the user input -->
+    <hr class="line_1">
+    <div class="randomdishes">
+        <h1
+          class="randomdiv"
+          align="center"
+          style="padding-top: 20px; padding-bottom: 20px"
+        >
+          POPULAR DELIGHTS 🤤
+        </h1>
+        <div class="images">
+          
+        </div> 
+        <div class="final">By Shiva Varma ❤️</div>    
+<script src="./app.js"></script>
+</body>
+</html>

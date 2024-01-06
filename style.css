@@ -1,0 +1,224 @@
+/* giving margin and padding to the page */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* BAckground colour to body */
+body {
+  background-color: #e5dede;
+  scroll-behavior: smooth;
+}
+/* styling the total div */
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styling the logo */
+.logo {
+  margin-left: 270px;
+  width: 65%;
+  height: 530px;
+}
+/* styling the Text */
+.information {
+  margin-right: 30%;
+  font-size: larger;
+  width: 50vw;
+}
+/* styling the TextBar and search image */
+.text_bar {
+  width: 40vw;
+  height: 46px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline: none;
+  border-radius: 0 7px 7px 0;
+  color: rgb(6, 6, 6);
+  font-size: 1vw;
+  border-color: #050505;
+  margin-left: -10px;
+}
+/* styling the search image */
+.search {
+  border: none;
+  border-radius: 7px 0 0 7px;
+  padding: 0.95vw;
+  background-color: #ffffff;
+  margin-bottom: -18px;
+  width: 20px;
+}
+/* styling the input box */
+.input_box {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(222, 220, 220);
+  letter-spacing: 0.1vw;
+  font-size: 1vw;
+  margin-top: 36px;
+}
+/* Adjusting the hr tag*/
+.line_1 {
+  margin-top: -30px;
+  background-color: black;
+  height: 5px;
+}
+/* Styling the random name */
+.random_name {
+  margin-top: 10px;
+}
+/* Styling the random image */
+.random_image {
+  margin-left: 38%;
+  border: 3px solid #080808;
+  height: 325px;
+  width: 321px;
+  margin-top: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+/* Styling the Ingridents button */
+.btn {
+  width: 10vw;
+  margin: 4vw;
+  background-color: #d18d8d;
+  color: rgb(222, 220, 220);
+  border: none;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1vw;
+  cursor: pointer;
+  margin-left: 45%;
+  margin-top: 50px;
+}
+/* Styling the search results */
+.search-results {
+  margin-top: 3vw;
+  flex-direction: column;
+}
+.search-results h2 {
+  color: rgb(222, 220, 220);
+}
+/* Styling the text */
+#notfound {
+  color: #3c3c3c;
+}
+/* Styling the images */
+#card-container {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2vw;
+  border: 10px;
+  border-color: black;
+  background-color: white;
+  height: 50px;
+}
+/* Styling the popup */
+.popup {
+  width: 350px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: centre;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+/* Styling the text */
+.Ingredients {
+  margin-left: 90px;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.close-popup {
+  visibility: hidden;
+}
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 10 10px;
+}
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background-color: #6f6f6f;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.randomdishes {
+  background-color: #e5dede;
+  margin-top: 50px;
+}
+.randomdiv {
+  margin-top: 50px;
+  padding-top: 30px;
+  border: 3px solid #0a0909;
+  border-radius: 10px;
+  width: 440px;
+  margin-left: 500px;
+  padding-bottom: 20px;
+}
+
+.images {
+  width: 1200px;
+  margin: 85px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 40px;
+  text-align: center;
+}
+
+#notFoundtag {
+  position: absolute;
+  left: 530px;
+  margin-top: 10px;
+}
+
+/* for random image sections */
+.randomimage {
+  margin: 20px;
+}
+/* modal popup settings */
+.body2 {
+  background: #e5dede;
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+/* Styling the images */
+img {
+  width: 320px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* Styling the my name */
+.final {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #070707;
+  text-align: center;
+  /* margin-bottom: 50px; */
+  margin-top: 180px;
+}
